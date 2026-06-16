@@ -1,0 +1,32 @@
+/* Ecosystem Section */
+
+.ecosystem-section {
+  padding: 100px 40px;
+}
+
+.ecosystem-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  text-align: center;
+}
+
+/* Tablet */
+
+@media (max-width: 992px) {
+  .ecosystem-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .ecosystem-section {
+    padding: 80px 20px;
+  }
+
+  .ecosystem-grid {
+    grid-template-columns: 1fr;
+  }
+}
